@@ -1,0 +1,2 @@
+def be_happy():import datetime, time;is_winner = int(str(time.time())[-1:]) % 2;age=(datetime.datetime.now() - datetime.datetime.strptime("2024-10-24", "%Y-%m-%d")).days // 365.25;print("Thank you for your present, Happy birthday ROBOT_DREAM and happy Halloween" if is_winner else "Happy birthday ROBOT_DREAM, maybe next time" if age < 18  else "@&#$?&!")
+be_happy()
